@@ -1,10 +1,10 @@
 # NewWorldOfSnapDeal
 
-Curated Tweets of #NewWorldOfSnapDeal.
+Curated Tweets of [#NewWorldOfSnapDeal](https://twitter.com/hashtag/newworldofsnapdeal).
 
 ### Contributions:
 
-Add/Update Tweets on [src/data.json](https://github.com/codehate/NewWorldOfSnapDeal/blob/gh-pages/src/data.json)
+Add/Update Tweets in [src/data.json](https://github.com/codehate/NewWorldOfSnapDeal/blob/gh-pages/src/data.json)
 
 ### Run:
 
