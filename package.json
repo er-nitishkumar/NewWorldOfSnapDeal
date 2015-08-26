@@ -1,11 +1,19 @@
 {
-  "name": "newworldofsnapdeal",
-  "version": "0.0.1",
-  "description": "newworldofsnapdeal love",
-  "author": "Anand Sudhanaboina",
-  "license": "GPL",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-compressor": "^0.1.0"
-  }
+    "name": "newworldofsnapdeal",
+    "version": "0.0.1",
+    "description": "Curated #NewWorldOfSnapDeal Tweets",
+    "author": "Anand Sudhanaboina",
+    "homepage": "http://codehate.github.io/NewWorldOfSnapDeal/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codehate/NewWorldOfSnapDeal"
+    },
+    "bugs": {
+        "url": "https://github.com/codehate/NewWorldOfSnapDeal/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-compressor": "^0.1.0"
+    }
 }
