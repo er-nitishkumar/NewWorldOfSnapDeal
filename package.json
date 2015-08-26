@@ -1,0 +1,11 @@
+{
+  "name": "newworldofsnapdeal",
+  "version": "0.0.1",
+  "description": "newworldofsnapdeal love",
+  "author": "Anand Sudhanaboina",
+  "license": "GPL",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compressor": "^0.1.0"
+  }
+}
