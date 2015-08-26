@@ -114,10 +114,23 @@
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
     <script type="text/javascript">
+    Array.prototype.shuffle = function() {
+        var i = this.length,
+            j, temp;
+        if (i == 0) return this;
+        while (--i) {
+            j = Math.floor(Math.random() * (i + 1));
+            temp = this[i];
+            this[i] = this[j];
+            this[j] = temp;
+        }
+        return this;
+    };
     var app = angular.module('app', []);
     app.controller('react', ['$scope', '$http', function($scope, $http) {
         $scope.getData = function() {
             $http.get("src/data.json").success(function(response) {
+                response.shuffle();
                 $scope.tweets = response;
             });
         };
