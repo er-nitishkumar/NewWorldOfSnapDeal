@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var compressor = require('gulp-compressor');
 gulp.task('build', function() {
-    gulp.src('./src/*.html')
+    gulp.src('./src/index.html')
         .pipe(compressor({
             'remove-intertag-spaces': true,
             'simple-bool-attr': true,
